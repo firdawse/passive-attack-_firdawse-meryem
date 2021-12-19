@@ -44,7 +44,7 @@ sudo ./sniffer eth0 100
 
 -   In the previous manipulation, the frames are displayed in hexadecimal format. To display the content of the ETHERNET header, you must remove the comment from the ParseEthernetHeader function, recompile, regenerate the executable and redo step 2).
 
-     ![cs2 (2)](https://user-images.githubusercontent.com/85891554/146661437-1deb99a6-18ed-486e-8140-81d1594cb26a.png)
+     ![](10.png)
 
 - To display the content of the headers of higher-level protocols, remove the comments from the corresponding functions (at the level of the main function), recompile, regenerate the executable and run the sniffer again. Consider doing a TCP traffic exchange (for example using the vsftpd server or connecting to the Internet).
 [![cs3](https://user-images.githubusercontent.com/85891554/146661515-f08c9c1f-fb01-458e-8e3b-e3d87eac5f62.png)](https://user-images.githubusercontent.com/85891554/146661515-f08c9c1f-fb01-458e-8e3b-e3d87eac5f62.png)  [![cs4](https://user-images.githubusercontent.com/85891554/146661526-33f22e78-7031-477b-96d9-b46bac64b048.png)](https://user-images.githubusercontent.com/85891554/146661526-33f22e78-7031-477b-96d9-b46bac64b048.png)
