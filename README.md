@@ -70,20 +70,20 @@ In this part, we are interested in the manipulation of some existing sniffers.
 
 </br>
 
-   ![](3.png)
+   ![](3.PNG)
 
 -   **Now** , we Configure wireshark filter   
 
-    ![](2.png)
+    ![](2.PNG)
     **to  Only**
     -  display frames relating to a particular protocol: bootp, tcp, icmp, etc.  
 
        * tcp 
-      ![](6.png)
+      ![](6.PNG)
        * Icmp
-      ![](4.png)
+      ![](4.PNG)
        * Dns
-      ![](5.png)
+      ![](5.PNG)
 
     
 
@@ -92,15 +92,15 @@ In this part, we are interested in the manipulation of some existing sniffers.
     </br>
 
     
-    ![cs41](7.png)
+    ![cs41](7.PNG)
     
     -   display only the frames exchanged between two machines with address @ IP1 and @ IP2  
      </br>
     
-    ![](1.png)
+    ![](1.PNG)
 
     
     -only display frames whose size is greater than a given size 
      </br>
     
-    ![](9.png)
+    ![](9.PNG)
