@@ -47,12 +47,12 @@ sudo ./sniffer eth0 100
      ![](10.png)
 
 - To display the content of the headers of higher-level protocols, remove the comments from the corresponding functions (at the level of the main function), recompile, regenerate the executable and run the sniffer again. Consider doing a TCP traffic exchange (for example using the vsftpd server or connecting to the Internet).
-[![cs3](https://user-images.githubusercontent.com/85891554/146661515-f08c9c1f-fb01-458e-8e3b-e3d87eac5f62.png)](https://user-images.githubusercontent.com/85891554/146661515-f08c9c1f-fb01-458e-8e3b-e3d87eac5f62.png)  [![cs4](https://user-images.githubusercontent.com/85891554/146661526-33f22e78-7031-477b-96d9-b46bac64b048.png)](https://user-images.githubusercontent.com/85891554/146661526-33f22e78-7031-477b-96d9-b46bac64b048.png)
+![](11.png)  ![](12.png)
 
 -   remove the comments from the UDP  function to display the  UDP header 
 
     
-    [![cs7](https://user-images.githubusercontent.com/85891554/146661531-b0f19212-4e8e-4ea0-8cec-59b918f7bc19.png)](https://user-images.githubusercontent.com/85891554/146661531-b0f19212-4e8e-4ea0-8cec-59b918f7bc19.png)
+    ![](13.png)
 
 ## Part 2 : manipulation of sniffers
 
