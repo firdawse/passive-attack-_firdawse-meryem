@@ -108,20 +108,19 @@ In this part, we are interested in the manipulation of some existing sniffers.
     ## Part 3 : remote sniffing
     In order to do this part we need 2 windows machines connected to different networks:  
     
-    - first,we need to install winpcap to get and start the rpcap(remote packet capture protocol) service on machine A:
+* first,we need to install winpcap to get and start the rpcap(remote packet capture protocol) service on machine A:
   ![](rpcapins.PNG)  
 
   ![](rpcapstart.PNG)
-     
-    - then install wireshark to machine B, go to manage interfaces->remote interfaces, and then add our machine A:  
+* then install wireshark to machine B, go to manage interfaces->remote interfaces, and then add our machine A:  
     
-![](interfaceconf.PNG)  
+  ![](interfaceconf.PNG)  
 
-        PS: this won't work if we dont enable rpcap service in the firewall.
+     PS: this won't work if we dont enable rpcap service in the firewall.
         
-        ![](firewallconf.PNG)
+  ![](firewallconf.PNG)
         
-      - now we just observe the packets:
+* now we just observe the packets:
       
-      ![](packets.PNG)
+   ![](packets.PNG)
 
