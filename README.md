@@ -114,13 +114,13 @@ In this part, we are interested in the manipulation of some existing sniffers.
   ![](rpcapstart.PNG)
 * then install wireshark to machine B, go to manage interfaces->remote interfaces, and then add our machine A:  
     
-  ![](interfaceconf.PNG)  
+  ![](interfaceconf.png)  
 
      PS: this won't work if we dont enable rpcap service in the firewall.
         
-  ![](firewallconf.PNG)
+  ![](firewallconf.png)
         
 * now we just observe the packets:
       
-   ![](packets.PNG)
+   ![](packets.png)
 
