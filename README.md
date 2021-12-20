@@ -35,10 +35,10 @@ cc -c sniffer_eth_ip_tcp_data.c
 cc sniffer_eth_ip_tcp_data.c -o sniffer
 ```
 
--    Run (in root mode: "sudo command" under ubuntu) the sniffer ** / sniffer eth0 100 ** to sniff the first 100 frames received on the eth0 interface
+-    Run (in root mode: "sudo command" under ubuntu) the sniffer ** / sniffer eth0 100 ** to sniff the first 100 frames received on the eth1 interface
 
 ```
-sudo ./sniffer eth0 100
+sudo ./sniffer eth1 100
 ```
 
 
