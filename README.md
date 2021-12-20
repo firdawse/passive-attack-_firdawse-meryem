@@ -66,7 +66,8 @@ In this part, we are interested in the manipulation of some existing sniffers.
 [![cs13](https://user-images.githubusercontent.com/85891554/146661798-91cf5687-829a-4c72-8e10-4d093bcaabbd.png)
 
 - Can we capture the traffic exchanged between machines in the rest of the network?
-    -   **NO** Because wireshark can sniff on broadcast trafic only ,the icmp packet sent from ip2 to ip3 is unicast so it can not be detected by our machine ip1  
+    -   **NO** Because wireshark can sniff on broadcast trafic only , so if we didn't compromize the network and impersonate the gateway we can't sniff on unicast packets
+      -   for example: an icmp packet sent from B to C is unicast so it can not be detected by our machine A    
 
 </br>
 
